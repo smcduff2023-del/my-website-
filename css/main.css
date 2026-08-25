@@ -1,1 +1,10 @@
 /* Place CSS styles here */
+body {
+    background: rgb(135, 44, 135);
+    text-align:center;
+    margin:auto;
+    
+}
+img {
+    border: 5px solid black;
+}
