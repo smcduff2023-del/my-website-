@@ -1,10 +1,84 @@
 /* Place CSS styles here */
-body {
+.home-page {
     background: rgb(135, 44, 135);
-    text-align:center;
+    text-align:riglehtleft;
     margin:auto;
-    
+    text-decoration: bold;
+    nav a {
+     color: rgb(135, 44, 135);
+    background-color: rgb(215, 215, 82);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    }
+
+    body.about-page {
+        background:rgb(215, 215, 82)
+        text-align= left;
+        margin: 40 px;
+
+    }
+
+
 }
-img {
+
+.Bron-Home-Image {
     border: 10px solid black;
+    text-align:left;
+    margin:10px;
 }
+.intro-copy {
+   text-decoration: wavy;
+    text-align:left;
+    margin:20px;
+}
+.about-page {
+    background: rgb(215, 215, 82);
+
+    text-align:left;
+    margin:40px;
+}
+.contact-page {
+    background: rgb(183, 43, 183);
+    text-align:left;
+    margin:auto;
+}
+h1 {
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    margin: auto;
+}
+
+nav a {
+     color: rgb(253, 253, 253);
+    background-color: rgb(215, 215, 82);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+
+    font-weight: bold;
+}
+
+nav a {
+    color: rgb(253, 253, 253);
+    background-color: rgb(183, 43, 183);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.turkey-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  
+}
+
